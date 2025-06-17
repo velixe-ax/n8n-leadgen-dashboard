@@ -71,7 +71,7 @@ export const LeadDetailModal = ({ lead, isOpen, onClose }: LeadDetailModalProps)
       setIsLoading(true);
       const fetchDetailedLead = async () => {
         try {
-          const response = await fetch(`https://n8n.vaedrix.com:8443/webhook/load-lead-info/6f78-4ed2-acc3-ad63c1724d39?id=${lead.Id}`);
+          const response = await fetch(`loading lead info using their id| ?id=${lead.Id}`);
           const data = await response.json();
           if (data && data.data && Array.isArray(data.data.data) && data.data.data.length > 0) {
             setDetailedLead(data.data.data[0]);
