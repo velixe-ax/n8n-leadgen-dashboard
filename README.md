@@ -1,6 +1,6 @@
 # Lead Generation Dashboard
 
-A modern web application for managing and analyzing lead generation tasks, built with React, TypeScript, and Tailwind CSS.
+A modern web application for managing and analyzing lead generation tasks, built with Loveable, Cursor N8N AI Tools.
 
 ## Features
 
